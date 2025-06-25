@@ -6,7 +6,7 @@
     "scripts": {
         "predeploy":"npm run build",
         "deploy":"gh-pages -d dist",
-        "build": "webpack"
+        "build": "webpack ,[my-framework] build --output public"
     },
     "author": "",
     "license": "ISC",
